@@ -1,9 +1,10 @@
-import os
 import argparse
+import os
+
 
 def main():
 
-    result: Optional[int] = os.system("")
+    result = os.system("")
     return result
 
 
@@ -21,7 +22,6 @@ if __name__ == "__main__":
     print(f"こんにちは、{args.name}さん")
     if args.age:
         print(f"年齢は{args.age}歳です")
-    
 
     # Run the main function
     main()
